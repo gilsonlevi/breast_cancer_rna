@@ -1,4 +1,3 @@
-
 # Importa os dados do repositório oficial da UC - Irvine (Universidade da California - Irvine)
 from ucimlrepo import fetch_ucirepo 
 # Busca os dados do repositório sobre Cancer de Mama
