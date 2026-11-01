@@ -22,6 +22,22 @@ y = breast_cancer_wisconsin_diagnostic.data.targets
 print("Dimensões da base:")
 print(X.shape)
 
+# Verificar tipos de dados
+print("\nTipos de dados:")
+print(X.dtypes)
+
+# Verificar valores ausentes
+print("\nValores ausentes:")
+print(X.isnull().sum())
+
+# Verificar registros duplicados
+print("\nRegistros duplicados:")
+print(X.duplicated().sum())
+
+# Estatísticas descritivas
+print("\nEstatísticas:")
+print(X.describe().T)
+
   
 # metadata 
 # print(breast_cancer_wisconsin_diagnostic.metadata) 
