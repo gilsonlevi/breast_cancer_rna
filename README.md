@@ -10,3 +10,13 @@ A base escolhida tem um total de 569 amostras/linhas que são exames feitos em c
 das células. A base contem 30 características/colunas que são as entradas da nossa rede neural. 
 
 As características são: 
+
+## Raio
+## Textura
+## Perimetro
+## Área
+## Suavidade
+## Compacidade
+## Pontos Côncavos
+## Simetria
+## Dimensão Factral
