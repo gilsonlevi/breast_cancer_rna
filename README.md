@@ -5,3 +5,8 @@ que apresenta amostra de células mamarias e suas características como tamanho,
 com a existência de câncer de mama.
 
 Os dados escolhidos estão disponeis em python.
+
+A base escolhida tem um total de 569 amostras/linhas que são exames feitos em células mamarias para averiguar certas características 
+das células. A base contem 30 características/colunas que são as entradas da nossa rede neural. 
+
+As características são: 
