@@ -11,12 +11,12 @@ das células. A base contem 30 características/colunas que são as entradas da 
 
 As características são: 
 
-## Raio
-## Textura
-## Perimetro
-## Área
-## Suavidade
-## Compacidade
-## Pontos Côncavos
-## Simetria
-## Dimensão Factral
+### Raio
+### Textura
+### Perimetro
+### Área
+### Suavidade
+### Compacidade
+### Pontos Côncavos
+### Simetria
+### Dimensão Factral
