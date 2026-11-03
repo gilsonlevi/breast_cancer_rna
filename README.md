@@ -37,9 +37,9 @@ As saídas são o que foi diagnosticado:
 ## Importação dos dados
 
 Para pegar os dados do repositorio em python usamos:
-´´´
+```py
 pip install ucimlrepo
-´´´
+```
 ## Qualidade e integridade dos dados
 
 A primeira verificação foi analisar se algum valor ausente na tabela 
