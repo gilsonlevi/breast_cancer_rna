@@ -11,15 +11,7 @@ das células. A base contem 30 características/colunas que são as entradas da 
 
 As características são: 
 
-### Raio
-### Textura
-### Perimetro
-### Área
-### Suavidade
-### Compacidade
-### Pontos Côncavos
-### Simetria
-### Dimensão Factral
+Raio, Textura, Perimetro, Área, Suavidade, Compacidade, Pontos Côncavos, Simetria, Dimensão Factral
 
 Essas características são divididas em 3 tipos:
 
@@ -65,7 +57,7 @@ onde a variável X representa os dados das características (entradas) e a vari�
 Esse código do repositório foi colocado em um arquivo com o nome de (repositorio.py). A partir dele, foram importados os
 dados para os outros arquivos usando o código:
 
-```
+```py
 from repositorio import X,y
 ```
 
@@ -74,7 +66,7 @@ from repositorio import X,y
 A primeira verificação foi analisar se algum valor ausente na tabela. O arquivo (integridadeDados.py) contém os código que foram usados
 para determinar esse tôpico:
 
-```
+```py
 ## Qualidade e Integridade dos dados
 
 #1 Verificar valores ausentes
