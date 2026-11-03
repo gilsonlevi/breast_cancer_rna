@@ -20,3 +20,27 @@ As características são:
 ### Pontos Côncavos
 ### Simetria
 ### Dimensão Factral
+
+Essas características são divididas em 3 tipos:
+
+### Média
+### Erro Padrão
+### Valor mais elevado
+
+totalizando 30 entradas.
+
+As saídas são o que foi diagnosticado:
+
+### B ou Benigno
+### M ou Maligno
+
+## Importação dos dados
+
+Para pegar os dados do repositorio em python usamos:
+´´´
+pip install ucimlrepo
+´´´
+## Qualidade e integridade dos dados
+
+A primeira verificação foi analisar se algum valor ausente na tabela 
+
