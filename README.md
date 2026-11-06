@@ -100,6 +100,12 @@ que seja possível haver a exclusão de alguma delas.
 
 Isso pode ser feito da seguinte maneira
 
+Primeiramente devesse instalar a biblioteca seaborn através de:
+
+```bash
+python -m pip install seaborn
+```
+
 ```py
 # Importações
 import pandas as pd
