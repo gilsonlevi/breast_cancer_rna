@@ -28,7 +28,8 @@ As saídas são o que foi diagnosticado:
 
 ## Importação dos dados
 
-Para pegar os dados do repositorio em python no command prompt:
+Para pegar os dados do repositorio precisamos fazer uma instalação da base de dados. Para isso podemos 
+escrever no command prompt:
 ```bash
 pip install ucimlrepo
 ```
