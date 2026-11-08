@@ -4,17 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Importa a base da UCI
-from ucimlrepo import fetch_ucirepo
-
-# Carrega a base
-breast_cancer_wisconsin_diagnostic = fetch_ucirepo(id=17)
-
-# Features
-X = breast_cancer_wisconsin_diagnostic.data.features
-
-# Target
-y = breast_cancer_wisconsin_diagnostic.data.targets
+from repositorio import X,y
 
 # ==========================================================
 # MATRIZ DE CORRELAÇÃO
@@ -73,3 +63,24 @@ X_reduzido = X.drop(columns=colunas_remover)
 
 print("\nDimensão original :", X.shape)
 print("Dimensão reduzida :", X_reduzido.shape)
+
+
+# Calculando correlação da nova base
+
+corr = X_reduzido.corr()
+
+plt.figure(figsize=(18, 15))
+
+# Plota o mapa de calor
+sns.heatmap(
+    corr,
+    cmap="coolwarm",
+    center=0,
+    square=True,
+    linewidths=0.5,
+    cbar_kws={"shrink":0.8}
+)
+
+plt.title("Matriz de Correlação - Breast Cancer Wisconsin", fontsize=18)
+plt.tight_layout()
+plt.show()
